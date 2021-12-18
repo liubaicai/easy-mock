@@ -3,7 +3,7 @@ name: build easy-mock
 on:
   push:
     branches:
-      - "master"
+      - "dev"
 
 jobs:
   docker:
