@@ -28,9 +28,7 @@ services:
       - 10000:7300
     volumes:
       # 日志地址，根据需要修改为本地地址
-      - './logs:/home/easy-mock/easy-mock/logs'
-      # 配置地址，请使用本地配置地址替换
-      # - './production.json:/home/easy-mock/easy-mock/config/production.json'
+      - './logs:/app/easy-mock/logs'
     networks:
       - easy-mock
     restart: always
